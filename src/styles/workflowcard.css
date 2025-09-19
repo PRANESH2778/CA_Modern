@@ -1,0 +1,96 @@
+/* src/styles/workflow-card.css */
+.wfcard {
+    width: 260px;
+    height: 160px;
+    perspective: 1000px;
+  }
+  .wfcard-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform .55s cubic-bezier(.2,.7,.2,1);
+    transform-origin: center center;
+  }
+  .wfcard:hover .wfcard-inner { transform: rotateX(180deg); }
+  
+  /* Faces */
+  .wfcard-face {
+    position: absolute;
+    inset: 0;
+    border-radius: 14px;
+    background: linear-gradient(135deg,#ffffff 0%,#f0f8ff 50%,#dff0ff 100%);
+    box-shadow: 0 1px 0 rgba(0,0,0,.06);
+    padding: 14px 14px 16px;
+    backface-visibility: hidden;
+  }
+  
+  /* Front */
+  .wfcard-front {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    place-items: center;
+    text-align: center;
+    gap: 8px;
+  }
+  
+  /* Icon medallion with offset shadow (matches screenshot) */
+  .wfcard-badge {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg,#eaf3ff 0%,#d7e9ff 100%);
+    box-shadow: 6px 6px 0 rgba(0,0,0,.18); /* small offset dark shadow */
+    position: relative;
+  }
+  .wfcard-badge img {
+    width: 44px;
+    height: 44px;
+    object-fit: contain;
+    filter: drop-shadow(0 0 0 rgba(0,0,0,0)); /* crisp icon */
+  }
+  
+  .wfcard-title {
+    margin: 6px 0 0;
+    font-size: 14px;
+    font-weight: 800;
+    color: #0b1426;
+    line-height: 1.35;
+  }
+  
+  /* Back */
+  .wfcard-back {
+    transform: rotateX(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .wfcard-list {
+    margin: 0;
+    padding: 0 8px;
+    list-style: none;
+    width: 100%;
+    color: #0f172a;
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  .wfcard-list li {
+    position: relative;
+    padding-left: 18px;
+    margin: 4px 0;
+  }
+  .wfcard-list li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #0b5fff;
+    font-weight: 700;
+  }
+  
+  /* Optional hover lift (keeps exact colors) */
+  .wfcard:hover {
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,.12));
+  }

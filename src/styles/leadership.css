@@ -1,0 +1,91 @@
+/* src/styles/leadership.css */
+.leadership { padding: 22px 16px 36px; background:#fff; }
+.leadership-container { max-width: 1200px; margin: 0 auto; }
+
+.leadership-title {
+  margin: 0 0 10px;
+  text-align: center;
+  font-size: clamp(26px, 4vw, 42px);
+  font-weight: 900;
+  color: #0b1426;
+}
+
+.leadership-intro {
+  margin: 0 auto 22px;
+  max-width: 980px;
+  text-align: center;
+  color: #2a3a52;
+  font-size: 14.5px;
+  line-height: 1.8;
+}
+
+/* Cards layout */
+.leader-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+
+/* Card */
+.leader-card {
+  background: linear-gradient(180deg, #f5f9ff 0%, #e2effd 100%);
+  border-radius: 12px;
+  border: 1px solid #000000;
+  padding: 16px 18px 18px;
+  box-shadow: 0 8px 22px rgba(15, 35, 85, .10);
+}
+
+/* Photo */
+.leader-photo-wrap {
+  width: 230px;
+  height: 230px;
+  margin: 6px auto 12px;
+  border-radius: 8px;
+  overflow: hidden;
+  background:#eef5ff;
+  display:grid;
+  place-items:center;
+  box-shadow: 0 2px 8px rgba(0,0,0,.06) inset;
+}
+.leader-photo-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Name & Role */
+.leader-name {
+  margin: 8px 0 6px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 800;
+  color: #2b3f7e;
+}
+.leader-role {
+  margin: 0 0 10px;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #3d4c7d;
+}
+
+/* Bio */
+.leader-bio {
+  margin: 0;
+  color: #273246;
+  font-size: 13px;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+/* Hover elevation similar to reference */
+.leader-card:hover {
+  box-shadow: 0 14px 34px rgba(15, 35, 85, .18);
+  transform: translateY(-2px);
+  transition: box-shadow .25s ease, transform .25s ease;
+}
+
+@media (max-width: 1024px) {
+  .leader-grid { grid-template-columns: 1fr; gap: 18px; }
+  .leader-photo-wrap { width: 260px; height: 260px; }
+}

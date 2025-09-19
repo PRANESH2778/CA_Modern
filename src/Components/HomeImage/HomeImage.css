@@ -1,0 +1,44 @@
+.imageContainer{
+  position: relative;
+ display: inline-block; 
+}
+.imageStyle{
+    width: 100%;
+ height: auto;
+ display: block;
+}
+.detailSection{
+   position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+ color: black;
+ text-align: center;
+ max-width: 950px;
+ width: 92%;
+}
+.firstText{
+   font-size: 3.2rem;
+   font-weight: 800;
+   margin: 0 0 10px 0;
+}
+.secondText{
+   font-size: 1.6rem;
+   font-weight: 700;
+   margin: 0 0 14px 0;
+}
+.thirdText{
+   font-size: 1rem;
+   line-height: 1.7;
+   margin: 0 auto 18px;
+   max-width: 820px;
+}
+.ctaBtn{
+ background: #000;
+ color: #fff;
+ border: none;
+ border-radius: 12px;
+ padding: 12px 24px;
+ font-weight: 700;
+ cursor: pointer;
+}

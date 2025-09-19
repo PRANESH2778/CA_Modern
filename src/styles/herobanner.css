@@ -1,0 +1,10 @@
+.eng-hero {
+    width: 100%;
+    background: linear-gradient(180deg, #f6fbff 0%, #eaf4ff 60%, #e2f0ff 100%);
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    text-align: center;
+    padding: 86px 24px 110px;
+    position: relative;
+    overflow: hidden;
+}

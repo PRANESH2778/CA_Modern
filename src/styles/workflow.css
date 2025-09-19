@@ -1,0 +1,43 @@
+/* Section shell */
+.wf-section {
+    padding: 28px 16px 40px;
+    background: #fff;
+  }
+  
+  /* Center and constrain like the reference page */
+  .wf-container {
+    width: 100%;
+    max-width: 980px; /* tuned to match the screenshot's content width */
+    margin: 0 auto;
+  }
+  
+  /* Heading style similar to the reference */
+  .wf-title {
+    margin: 0 0 14px;
+    font-size: clamp(22px, 3.2vw, 28px);
+    font-weight: 800;
+    color: #0b1426;
+  }
+  
+  /* Image presentation: centered, crisp, no distortion */
+  .wf-image-wrap {
+    background: #fff;
+    border-radius: 12px;
+    padding: 8px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08), 0 2px 8px rgba(0, 0, 0, 0.06);
+  }
+  
+  .wf-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    image-rendering: -webkit-optimize-contrast;
+  }
+  
+  /* Small screens keep proportions clean */
+  @media (max-width: 560px) {
+    .wf-section { padding: 20px 12px 28px; }
+    .wf-image-wrap { padding: 6px; border-radius: 10px; }
+    .wf-image { border-radius: 6px; }
+  }

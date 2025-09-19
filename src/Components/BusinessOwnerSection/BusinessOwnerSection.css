@@ -1,0 +1,22 @@
+.header {
+  background: #e6f0fa;
+  padding: 20px;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #333;
+}
+
+.content {
+  padding: 40px;
+  text-align: center;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.title {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+  margin-top: 20px;
+}

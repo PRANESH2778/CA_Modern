@@ -1,0 +1,42 @@
+.aboutSection{
+    padding: 40px 20px;
+}
+.aboutWrapper{
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    gap: 28px;
+    max-width: 1200px;
+    margin: auto;
+    align-items: center;
+}
+.aboutImage img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.aboutImage{
+    width: 100%;
+}
+.aboutContent{
+    width: 100%;
+}
+.sectionTitle{
+    padding-left: 0;
+    font-size: 3.2rem;
+    font-weight: 800;
+    margin: 0 0 14px 0;
+    text-align: left;
+}
+.aboutContent p{
+    font-size: 1rem;
+    line-height: 1.8;
+    margin: 0 0 14px 0;
+    text-align: left;
+    color: #111;
+}
+
+/* responsive tweaks */
+@media (max-width: 992px){
+  .sectionTitle{ font-size: 2.4rem; }
+  .aboutWrapper{ grid-template-columns: 1fr; }
+}

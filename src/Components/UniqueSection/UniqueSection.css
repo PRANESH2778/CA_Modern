@@ -1,0 +1,60 @@
+.uniqueContainer {
+  text-align: center;
+  padding: 50px 30px;
+  font-family: Arial, sans-serif;
+}
+
+.uniqueTitle {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.uniqueSubtitle {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 40px;
+}
+
+.uniqueCards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.uniqueCard {
+  background: linear-gradient(180deg, #f9f9f9, #e6f1f9);
+  border-radius: 12px;
+  padding: 30px 20px;
+  height: 280px;
+  width: 260px;
+  text-align: left;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.uniqueCard:hover {
+  transform: translateY(-6px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.uniqueIcons {
+  font-size: 50px; /* make icon large */
+  color: #2d3c8d;  /* navy blue like in screenshot */
+  margin-bottom: 20px;
+}
+
+.uniqueCard h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000;
+}
+
+.uniqueCard p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #333;
+  line-height: 1.4;
+}
