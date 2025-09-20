@@ -1,9 +1,9 @@
-.outsourcing {
+  .outsourcing {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 3rem 1rem;
-    font-family: Arial, sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
     color: #222;
   }
   
@@ -13,9 +13,10 @@
   }
   
   .outsourcing-title {
-    font-size: 2rem;
-    font-weight: bold;
+    font-size: 31px;
+    font-weight: 700;
     margin-bottom: 0.75rem;
+    font-family: 'Space Grotesk', sans-serif;
   }
   
   .outsourcing-subtitle {

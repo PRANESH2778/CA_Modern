@@ -1,4 +1,3 @@
-// src/pages/EngagementModel.jsx
 import React from "react";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
@@ -10,6 +9,8 @@ import Unique from "../../Components/Unique/Unique";
 import DataSecurity from "../../Components/DataSecurity/DataSecurity";
 import Industries from "../../Components/Industries/Industries";
 import HeroIntro from "../../Components/Common/HeroIntro";
+import UniqueSection from "../../Components/UniqueSection/UniqueSection";
+import JourneySection from "../../Components/JourneySection/JourneySection";
 
 const heroIntroValue = "Global Insights KPO has flexible engagement models tailored to your \
                         needs. Whether you’re a CPA firm, bookkeeping company, or business \
@@ -26,7 +27,9 @@ const EngagementModel = () => {
         <DedicatedResource />
         <TaaS />
         <OnDemand />
-        {/* <Unique /> */}
+        {/* <Unique /> */}'
+        <UniqueSection/>
+        <JourneySection/>
         <DataSecurity />
         <Industries />
       </main>

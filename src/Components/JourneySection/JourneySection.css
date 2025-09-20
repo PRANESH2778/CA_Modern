@@ -1,13 +1,14 @@
 .journeyContainer {
-  text-align: center;
-  padding: 50px 20px;
-  font-family: Arial, sans-serif;
+  text-align: left;
+  padding: 20px 20px;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .journeyTitle {
-  font-size: 32px;
-  font-weight: bold;
+  font-size: 31px;
+  font-weight: 700;
   margin-bottom: 10px;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .journeySubtitle {

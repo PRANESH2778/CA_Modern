@@ -8,6 +8,7 @@ import IndustrySection from '../../Components/IndustrySection/IndustrySection'
 import TrustedOutsourcingTeam from '../../Components/TrustedOutsourcingTeam/TrustedOutsourcingTeam'
 import Industries from '../../Components/Industries/Industries'
 import DataSecurity from '../../Components/DataSecurity/DataSecurity'
+import Connect from '../../Components/Connect/Connect'
 const Home = () => {
   return (
     <div className="container">
@@ -16,8 +17,9 @@ const Home = () => {
         <TrustedOutsourcingTeam/>
         <JourneySection/>
         <UniqueSection/>
-        <DataSecurity/>
+        {/* <DataSecurity/> */}
         <Industries/>
+        <Connect/>
     </div>
   )
 }

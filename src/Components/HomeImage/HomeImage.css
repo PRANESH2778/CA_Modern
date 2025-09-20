@@ -1,44 +1,122 @@
-.imageContainer{
-  position: relative;
- display: inline-block; 
-}
-.imageStyle{
-    width: 100%;
- height: auto;
- display: block;
-}
-.detailSection{
+.imageContainer {
+   position: relative;
+   display: inline-block;
+   width: 100%;
+   height: 100vh;
+   overflow: hidden;
+ }
+ 
+ .imageStyle {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   display: block;
+ }
+ 
+ .detailSection {
    position: absolute;
- top: 50%;
- left: 50%;
- transform: translate(-50%, -50%);
- color: black;
- text-align: center;
- max-width: 950px;
- width: 92%;
-}
-.firstText{
-   font-size: 3.2rem;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: #1a1a1a;
+   text-align: center;
+   max-width: 900px;
+   width: 90%;
+   z-index: 2;
+ }
+ 
+ .mainHeading {
+   font-size: 3.5rem;
    font-weight: 800;
-   margin: 0 0 10px 0;
-}
-.secondText{
-   font-size: 1.6rem;
+   margin: 0 0 1rem 0;
+   line-height: 1.1;
+   text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.8);
+ }
+ 
+ .subHeading {
+   font-size: 2rem;
    font-weight: 700;
-   margin: 0 0 14px 0;
-}
-.thirdText{
-   font-size: 1rem;
-   line-height: 1.7;
-   margin: 0 auto 18px;
-   max-width: 820px;
-}
-.ctaBtn{
- background: #000;
- color: #fff;
- border: none;
- border-radius: 12px;
- padding: 12px 24px;
- font-weight: 700;
- cursor: pointer;
-}
+   margin: 0 0 1.5rem 0;
+   line-height: 1.2;
+   text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+ }
+ 
+ .description {
+   font-size: 1.1rem;
+   line-height: 1.6;
+   margin: 0 auto 2rem;
+   max-width: 750px;
+   text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
+ }
+ 
+ .ctaButton {
+   background: #000;
+   color: #fff;
+   border: none;
+   border-radius: 8px;
+   padding: 1rem 2rem;
+   font-size: 1.1rem;
+   font-weight: 600;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+ }
+ 
+ .ctaButton:hover {
+   background: #333;
+   transform: translateY(-2px);
+   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+ }
+ 
+ /* Responsive Design */
+ @media (max-width: 1200px) {
+   .mainHeading {
+     font-size: 3rem;
+   }
+   
+   .subHeading {
+     font-size: 1.8rem;
+   }
+   
+   .description {
+     font-size: 1rem;
+   }
+ }
+ 
+ @media (max-width: 768px) {
+   .detailSection {
+     width: 95%;
+     padding: 0 1rem;
+   }
+   
+   .mainHeading {
+     font-size: 2.5rem;
+   }
+   
+   .subHeading {
+     font-size: 1.5rem;
+   }
+   
+   .description {
+     font-size: 0.95rem;
+   }
+   
+   .ctaButton {
+     padding: 0.8rem 1.5rem;
+     font-size: 1rem;
+   }
+ }
+ 
+ @media (max-width: 480px) {
+   .mainHeading {
+     font-size: 2rem;
+   }
+   
+   .subHeading {
+     font-size: 1.3rem;
+   }
+   
+   .description {
+     font-size: 0.9rem;
+   }
+ }

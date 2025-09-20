@@ -1,13 +1,15 @@
 .uniqueContainer {
-  text-align: center;
+  text-align: left;
   padding: 50px 30px;
-  font-family: Arial, sans-serif;
+  font-family: 'Space Grotesk', sans-serif;
+  background-color: #EFEFEF94;
 }
 
 .uniqueTitle {
-  font-size: 32px;
-  font-weight: bold;
+  font-size: 31px;
+  font-weight: 700;
   margin-bottom: 10px;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .uniqueSubtitle {
@@ -44,7 +46,10 @@
   color: #2d3c8d;  /* navy blue like in screenshot */
   margin-bottom: 20px;
 }
-
+.uniqueIcons img {
+  width: 60px;
+  height: 60px;
+}
 .uniqueCard h3 {
   font-size: 20px;
   font-weight: bold;

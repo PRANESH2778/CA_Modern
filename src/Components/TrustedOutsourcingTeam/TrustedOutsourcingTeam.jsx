@@ -1,9 +1,17 @@
 import React, { useState } from "react";
 import "./TrustedOutsourcingTeam.css";
-
+import { useNavigate } from "react-router-dom";
 const TrustedOutsourcingTeam = () => {
   const [activeTab, setActiveTab] = useState("cpa");
-
+  const navigate = useNavigate()
+  const navigateToBookKeeping = ()=>{
+    navigate("/services/cpa-bookkeeping")
+    window.scrollTo(0, 0);
+  }
+  const navigateToBusinessOwners = ()=>{
+    navigate("/services/business-owners")
+    window.scrollTo(0, 0);
+  }
   return (
     <section className="outsourcing">
       <div className="outsourcing-content">
@@ -39,7 +47,7 @@ const TrustedOutsourcingTeam = () => {
             an extension of your firm, and with our white-label support, your firm can focus on
             high-value advisory services while we take care of the backend work.
           </p>
-          <button className="card-btn">Learn more about our services</button>
+          <button className="card-btn" onClick={navigateToBookKeeping}>Learn more about our services</button>
 
           <div className="card-footer">
             <div className="card-icons">
@@ -67,7 +75,7 @@ const TrustedOutsourcingTeam = () => {
             from hustles of maintenance of books, we are here for you by providing cost-effective
             and efficient services.
           </p>
-          <button className="card-btn">Learn more about our services</button>
+          <button className="card-btn" onClick={navigateToBusinessOwners}>Learn more about our services</button>
 
           <div className="card-footer">
             <div className="card-illustration">

@@ -32,7 +32,6 @@ const About = () => {
         <DataSecurity />
         <Industries />
       </main>
-      <Footer />
     </>
   );
 };

@@ -1,22 +1,26 @@
 import React from "react";
 import "./BookKeepingCards.css";
+import bookKeeping from '../../assets/bookKeeping&Reconciliations.png';
+import accounts from '../../assets/accounts-payable.png';
+import financial from '../../assets/financial-statement.png';
+import payroll from '../../assets/payrollProcessing.png';
 
 const services = [
   {
     title: "Bookkeeping & Reconciliations",
-    icon: "??", // replace with your SVG/icon
+    icon: bookKeeping,
   },
   {
     title: "Accounts Payable & Receivable Management",
-    icon: "??",
+    icon: accounts,
   },
   {
     title: "Financial Statement Preparation",
-    icon: "??",
+    icon: financial,
   },
   {
     title: "Payroll Processing & Tax Assistance",
-    icon: "??",
+    icon: payroll,
   },
 ];
 
@@ -25,7 +29,9 @@ const BookKeepingCards = () => {
     <div className="simple-cards-container">
       {services.map((service, index) => (
         <div key={index} className="simple-card">
-          <div className="simple-card-icon">{service.icon}</div>
+          <div className="simple-card-icon">
+            <img src={service.icon} alt={service.title} />
+          </div>
           <h3 className="simple-card-title">{service.title}</h3>
         </div>
       ))}

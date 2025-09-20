@@ -3,9 +3,9 @@ import React from "react";
 import "./Leadership.css";
 
 // Dummy photos (replace with real assets)
-import p1 from "../../assets/leader1.png";
-import p2 from "../../assets/leader2.png";
-import p3 from "../../assets/leader3.png";
+import p1 from "../../assets/leader.jpg";
+import p2 from "../../assets/leader.jpg";
+import p3 from "../../assets/leader.jpg";
 
 const LeaderCard = ({ photo, name, role, bio }) => (
   <article className="leader-card">

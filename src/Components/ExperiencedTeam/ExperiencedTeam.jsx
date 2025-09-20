@@ -3,13 +3,13 @@ import React from "react";
 import "./Experiencedteam.css";
 
 // Replace these with your actual images (color photos)
-import m1 from "../../assets/image1.png";
-import m2 from "../../assets/image2.png";
-import m3 from "../../assets/image3.png";
-import m4 from "../../assets/image4.png";
-import m5 from "../../assets/image5.png";
-import m6 from "../../assets/image6.png";
-import m7 from "../../assets/image7.png";
+import m1 from "../../assets/leader.jpg";
+import m2 from "../../assets/leader.jpg";
+import m3 from "../../assets/leader.jpg";
+import m4 from "../../assets/leader.jpg";
+import m5 from "../../assets/leader.jpg";
+import m6 from "../../assets/leader.jpg";
+import m7 from "../../assets/leader.jpg";
 // import m8 from "../../assets/image1.png";
 
 const Member = ({ img, name, role }) => (

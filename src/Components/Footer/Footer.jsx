@@ -1,56 +1,85 @@
 import React from "react";
+import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="site-footer">
-      <div className="container footer-grid">
-        <div>
+    <footer className="footer">
+      <div className="footer-container">
+        {/* Left Section - Logo & About */}
+        <div className="footer-section about">
           <img
+            src="/logo.png" // replace with your logo path
             alt="Global Insights KPO"
-            src="https://globalinsightskpo.com/wp-content/uploads/2024/12/global-insights-logo-light.svg"
-            height="40"
+            className="footer-logo"
           />
-          <p className="mt-12">
+          <p>
             Global Insights KPO provides precise and affordable accounting
             solutions for businesses worldwide.
           </p>
         </div>
 
-        <div>
-          <h4>Useful Links</h4>
-          <ul className="links">
-            <li><a href="https://globalinsightskpo.com/">Home</a></li>
-            <li><a href="https://globalinsightskpo.com/about-us/">About us</a></li>
-            <li><a href="https://globalinsightskpo.com/engagement-model/">Engagement model</a></li>
-            <li><a href="https://globalinsightskpo.com/work-methodology/">Work Methodology</a></li>
+        {/* Middle Section - Useful Links */}
+        <div className="footer-section links">
+          <h3>Useful Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="/about">About us</a></li>
+            <li><a href="/engagement-model">Engagement model</a></li>
+            <li><a href="/work-methodology">Work Methodology</a></li>
+          </ul>
+          <ul>
+            <li><a href="/career">Career</a></li>
+            <li><a href="/blogs">Blogs</a></li>
+            <li><a href="/contact">Contact us</a></li>
           </ul>
         </div>
 
-        <div>
-          <h4>Quick Links</h4>
-          <ul className="links">
-            <li><a href="https://globalinsightskpo.com/career/">Career</a></li>
-            <li><a href="https://globalinsightskpo.com/blogs/">Blogs</a></li>
-            <li><a href="https://globalinsightskpo.com/contact-us/">Contact us</a></li>
-          </ul>
-        </div>
-
-        <div>
-          <h4>Contact Us</h4>
-          <p>+1 (215) 918-9654</p>
-          <p>+91 98752 72979</p>
-          <p>+91 95125 48016</p>
-          <p>242-243-244, Green Palladia, Palanpur, Adajan, Surat, Gujarat – India – 395009</p>
+        {/* Right Section - Certification */}
+        <div className="footer-section certs">
+          <h3>Certification</h3>
+          <div className="cert-logos">
+            <img src="/xero.png" alt="Xero" />
+            <img src="/quickbooks1.png" alt="QuickBooks" />
+            <img src="/quickbooks2.png" alt="QuickBooks" />
+          </div>
         </div>
       </div>
+
+      {/* Bottom Row */}
       <div className="footer-bottom">
-        <div className="container spread">
-          <p>Copyright © 2025. All rights reserved.</p>
-          <div className="socials">
-            <a href="https://www.instagram.com/" aria-label="Instagram">Instagram</a>
-            <a href="https://www.linkedin.com/" aria-label="LinkedIn">LinkedIn</a>
-            <a href="https://wa.me/" aria-label="WhatsApp">WhatsApp</a>
-          </div>
+        <div className="footer-section business">
+          <h3>Business Owners</h3>
+          <ul>
+            <li>Bookkeeping/Accounting</li>
+            <li>Accounts Payable Management</li>
+            <li>Accounts Receivable Management</li>
+            <li>Payroll Management</li>
+            <li>Fractional CFO services</li>
+            <li>Sales Tax & Use Tax preparation</li>
+          </ul>
+        </div>
+
+        <div className="footer-section firm">
+          <h3>CPA & Bookkeeping Firm</h3>
+          <ul>
+            <li>C2C Partnership Model</li>
+            <li>Portfolio Management Model</li>
+          </ul>
+        </div>
+
+        <div className="footer-section contact">
+          <h3>Contact Us</h3>
+          <p>🇺🇸 +1 (215) 918-9654</p>
+          <p>🇮🇳 +91 98752 72979</p>
+          <p>🇮🇳 +91 95125 48016</p>
+        </div>
+
+        <div className="footer-section address">
+          <h3>Address</h3>
+          <p>
+            242-243-244, Green Palladia, Palanpur, Adajan, Surat, Gujarat – India
+            – 395009
+          </p>
         </div>
       </div>
     </footer>

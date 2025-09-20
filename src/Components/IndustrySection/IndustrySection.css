@@ -3,12 +3,14 @@
   padding: 30px;
   max-width: 1200px;
   margin: auto;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .carousel-title {
-  font-size: 32px;
-  font-weight: bold;
+  font-size: 31px;
+  font-weight: 700;
   margin-bottom: 10px;
+  font-family: 'Space Grotesk', sans-serif;
 }
 
 .carousel-subtitle {

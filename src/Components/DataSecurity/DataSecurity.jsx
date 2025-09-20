@@ -67,7 +67,7 @@ const DataSecurity = () => {
 
   return (
     <Section id="data-security" title="Data Security">
-      <div className="data-security-intro">
+      <div className="data-security-intro" style={{textAlign:"left"}}>
         <p>
           At Global Insights KPO, we prioritize financial data security,
           implementing robust protections against cyber threats, unauthorized

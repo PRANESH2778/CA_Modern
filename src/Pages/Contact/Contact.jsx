@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import './Contact.css'
-
+import HeroBanner from '../../Components/Common/HeroBanner'
 const Contact = () => {
+  const bannerName = "Let Us Help You"
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -30,11 +31,12 @@ const Contact = () => {
   return (
     <div className="contact-page">
       {/* Hero Section */}
-      <div className="contact-hero">
+      <HeroBanner value={bannerName}/>
+      {/* <div className="contact-hero">
         <div className="contact-hero-content">
           <h1 className="hero-title">Let Us Help You</h1>
         </div>
-      </div>
+      </div> */}
 
       {/* Main Content */}
       <div className="contact-main">

@@ -1,10 +1,12 @@
 import React from "react";
 import "./BookKeepingSolutionCard.css";
+import team from '../../assets/team.png';
+import entrepreneur from '../../assets/entrepreneur.png';
 
 const services = [
   {
     title: "C2C Partnership Model",
-    icon: "??",
+    icon: team,
     points: [
       {
         subtitle: "Client-Centric Approach",
@@ -22,7 +24,7 @@ const services = [
   },
   {
     title: "Portfolio Management Model",
-    icon: "??",
+    icon: entrepreneur,
     points: [
       {
         subtitle: "Dedicated Client Portfolio",
@@ -45,7 +47,9 @@ const BookKeepingSolutionCard = () => {
     <div className="service-cards-container">
       {services.map((service, index) => (
         <div key={index} className="service-card">
-          <div className="service-card-icon">{service.icon}</div>
+          <div className="service-card-icon">
+            <img src={service.icon} alt={service.title} />
+          </div>
           <h2 className="service-card-title">{service.title}</h2>
           <ul className="service-card-list">
             {service.points.map((point, idx) => (

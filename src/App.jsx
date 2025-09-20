@@ -12,7 +12,7 @@ import "./styles/global.css";
 import "./styles/engagement.css";
 import BusinessOwner from './Pages/BusinessOwner/BusinessOwner'
 import BookKeeping from './Pages/BookKeeping/BookKeeping'
-// import Footer from './Components/Footer/Footer'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -30,7 +30,7 @@ function App() {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-      {/* <Footer /> */}
+      <Footer />
     </>
   )
 }

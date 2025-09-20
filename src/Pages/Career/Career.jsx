@@ -35,7 +35,8 @@ const Career = () => {
   }
 
   return (
-    <div className="career-page">
+    
+    <div>
       <HeroBanner value={bannerName}/>
       <HeroIntro value={heroIntroValue}/>
       <div className="career-container">

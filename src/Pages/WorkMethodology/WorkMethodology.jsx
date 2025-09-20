@@ -1,4 +1,3 @@
-// src/pages/EngagementModel.jsx
 import React from "react";
 import Header from "../../Components/Header/Header";
 import Footer from "../../Components/Footer/Footer";
@@ -8,6 +7,7 @@ import DataSecurity from "../../Components/DataSecurity/DataSecurity";
 import Industries from "../../Components/Industries/Industries";
 import OurWorkflow from "../../Components/OurWorkflow/OurWorkflow";
 import FiveStep from "../../Components/FiveStep/FiveStep";
+import JourneySection from "../../Components/JourneySection/JourneySection";
 
 const heroIntroValue = "At Global Insights KPO, we understand that each client’s needs are unique, \
                         which is why we take a customized approach to every project. Our work methodology \
@@ -25,6 +25,7 @@ const WorkMethodology = () => {
         <OurWorkflow />
         <FiveStep />
         <DataSecurity />
+        <JourneySection/>
         <Industries />
       </main>
       <Footer />

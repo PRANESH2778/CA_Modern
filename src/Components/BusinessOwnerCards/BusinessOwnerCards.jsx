@@ -1,10 +1,16 @@
 import React from "react";
 import "./BusinessOwnerCards.css";
+import bookkeeping from "../../assets/bookkeeping.png";
+import payable from "../../assets/payables.png";
+import receivable from "../../assets/receivable.png";
+import payroll from "../../assets/payroll.png";
+import fractional from "../../assets/forecasting.png";
+import salesTax from "../../assets/sales-tax.png";
 
 const services = [
   {
     title: "Bookkeeping & Accounting",
-    icon: "??", // you can replace with img or SVG
+    icon: bookkeeping,
     items: [
       "Daily/Weekly transactional work & general ledger maintenance",
       "US GAAP Compliant accounting",
@@ -17,7 +23,7 @@ const services = [
   },
   {
     title: "Accounts Payable Management (AP Management)",
-    icon: "??",
+    icon: payable,
     items: [
       "Purchase order management",
       "Vendor master data maintenance",
@@ -30,7 +36,7 @@ const services = [
   },
   {
     title: "Accounts Receivable Management (AR Management)",
-    icon: "??",
+    icon: receivable,
     items: [
       "Sales order & estimate management",
       "Periodic invoicing",
@@ -43,7 +49,7 @@ const services = [
   },
   {
     title: "Payroll Management",
-    icon: "??",
+    icon: payroll,
     items: [
       "Payroll processing at regular intervals",
       "Monthly/Quarterly/Annual payroll tax return filings",
@@ -53,7 +59,7 @@ const services = [
   },
   {
     title: "Fractional CFO Services",
-    icon: "??",
+    icon: fractional,
     items: [
       "Budgeting & costing analysis",
       "Financial projections",
@@ -62,12 +68,12 @@ const services = [
       "MIS reporting",
       "Software transition management",
       "Standard Operating Procedures (SOP) drafting",
-      "Workflow automation"
+      "Workflow automation",
     ],
   },
-   {
+  {
     title: "Sales & Use Tax Preparation",
-    icon: "??",
+    icon: salesTax,
     items: [
       "Determination of taxable & exempt supplies",
       "Sales & use tax calculation & reporting",
@@ -83,7 +89,9 @@ const BusinessOwnerCards = () => {
     <div className="cards-container">
       {services.map((service, index) => (
         <div key={index} className="card">
-          <div className="card-icon">{service.icon}</div>
+          <div className="card-icon">
+            <img src={service.icon} alt={service.title} />
+          </div>
           <h3 className="card-title">{service.title}</h3>
           <ul className="card-list">
             {service.items.map((item, idx) => (

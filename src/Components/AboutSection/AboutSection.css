@@ -1,42 +1,91 @@
-.aboutSection{
-    padding: 40px 20px;
-}
-.aboutWrapper{
-    display: grid;
-    grid-template-columns: 1.1fr 0.9fr;
-    gap: 28px;
+.firm-intro {
+    padding: 60px 20px;
+    background: #f9fafc;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  
+  .intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     max-width: 1200px;
     margin: auto;
-    align-items: center;
-}
-.aboutImage img{
+    gap: 40px;
+  }
+  
+  .intro-text {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .intro-title {
+    font-size: 31px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #222;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  
+  .intro-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #444;
+  }
+  
+  .btn-group {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+  }
+  
+  .learn-btn,
+  .call-btn {
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 6px;
+    transition: 0.3s ease;
+  }
+  
+  .learn-btn {
+    background: #222;
+    color: white;
+  }
+  
+  .learn-btn:hover {
+    background: #444;
+  }
+  
+  .call-btn {
+    background: #0077ff;
+    color: white;
+  }
+  
+  .call-btn:hover {
+    background: #005fcc;
+  }
+  
+  .intro-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .intro-image img {
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
-}
-.aboutImage{
-    width: 100%;
-}
-.aboutContent{
-    width: 100%;
-}
-.sectionTitle{
-    padding-left: 0;
-    font-size: 3.2rem;
-    font-weight: 800;
-    margin: 0 0 14px 0;
-    text-align: left;
-}
-.aboutContent p{
-    font-size: 1rem;
-    line-height: 1.8;
-    margin: 0 0 14px 0;
-    text-align: left;
-    color: #111;
-}
-
-/* responsive tweaks */
-@media (max-width: 992px){
-  .sectionTitle{ font-size: 2.4rem; }
-  .aboutWrapper{ grid-template-columns: 1fr; }
-}
+  }
+  
+  /* Responsive */
+  @media (max-width: 900px) {
+    .intro-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .intro-image {
+      margin-top: 30px;
+    }
+  }
