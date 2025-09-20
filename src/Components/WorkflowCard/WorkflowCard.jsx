@@ -1,6 +1,6 @@
 // src/components/workmethod/WorkflowCard.jsx
 import React from "react";
-import "./WorkflowCard.css";
+import "./workflowcard.css";
 
 const WorkflowCard = ({ icon, title, checklist = [] }) => {
   return (
