@@ -1,6 +1,6 @@
 import React from "react";
 import "./BookKeepingCards.css";
-import bookKeeping from '../../assets/bookKeepingAndReconciliations.png';
+import bookKeeping from '../../assets/Reconciliations.png';
 import accounts from '../../assets/accounts-payable.png';
 import financial from '../../assets/financial-statement.png';
 import payroll from '../../assets/payrollProcessing.png';
