@@ -1,0 +1,119 @@
+.floating-buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+.mail-button {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #2196f3;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(33, 150, 243, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  pointer-events: auto;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.mail-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(33, 150, 243, 0.4);
+}
+
+.mail-icon {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mail-text {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.whatsapp-button {
+  background: #25d366;
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(37, 211, 102, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  pointer-events: auto;
+}
+
+.whatsapp-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(37, 211, 102, 0.4);
+}
+
+.whatsapp-icon {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .floating-buttons {
+    bottom: 15px;
+    padding: 0 15px;
+  }
+  
+  .mail-button {
+    padding: 10px 14px;
+  }
+  
+  .mail-text {
+    font-size: 0.8rem;
+  }
+  
+  .whatsapp-button {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .whatsapp-icon {
+    font-size: 1.3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .floating-buttons {
+    bottom: 10px;
+    padding: 0 10px;
+  }
+  
+  .mail-button {
+    padding: 8px 12px;
+  }
+  
+  .mail-text {
+    font-size: 0.75rem;
+  }
+  
+  .whatsapp-button {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .whatsapp-icon {
+    font-size: 1.1rem;
+  }
+}
