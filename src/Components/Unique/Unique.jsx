@@ -1,6 +1,6 @@
 // src/components/engagement/Unique.jsx
 import React from "react";
-import Section from "../common/Section";
+import Section from "../Common/Section";
 
 const Unique = () => {
   return (

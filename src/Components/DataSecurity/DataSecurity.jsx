@@ -1,7 +1,7 @@
 // src/components/engagement/DataSecurity.jsx
 import React from "react";
-import Section from "../common/Section";
-import Card from "../common/Card";
+import Section from "../Common/Section";
+import Card from "../Common/Card";
 
 // icons (put these SVGs/PNGs in src/assets)
 import endToEnd from "../../assets/endToEndImg.png";
