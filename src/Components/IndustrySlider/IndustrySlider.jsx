@@ -6,7 +6,7 @@ import IndustryCard from "../Common/IndustryCard";
 
 // icons (update paths to your existing assets)
 import realEstate from "../../assets/realEstate.png";
-import it from "../../assets/itIMg.png";
+import it from "../../assets/itImg.png";
 import manufacturing from "../../assets/manufacImg.png";
 import franchising from "../../assets/franchiseImg.png";
 import hospitality from "../../assets/hospitality.png";
