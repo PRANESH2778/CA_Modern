@@ -1,6 +1,6 @@
 // src/components/engagement/DedicatedResource.jsx
 import React from "react";
-import Section from "../common/Section";
+import Section from "../Common/Section";
 import dedicatedResourceImg from "../../assets/dedicatedResourceImg.png";
 
 const DedicatedResource = () => {
