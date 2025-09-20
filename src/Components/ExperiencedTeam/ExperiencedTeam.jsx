@@ -1,6 +1,6 @@
 // src/components/aboutus/ExperiencedTeam.jsx
 import React from "react";
-import "./Experiencedteam.css";
+import "./ExperiencedTeam.css";
 
 // Replace these with your actual images (color photos)
 import m1 from "../../assets/leader.jpg";
