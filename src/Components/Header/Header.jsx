@@ -70,9 +70,9 @@ const Header = () => {
           
           {/* Mobile Services Dropdown */}
           <div className="mobile-dropdown">
-            <button className="mobile-nav-link mobile-dropdown-toggle" onClick={toggleServices}>
+            <button className={`mobile-dropdown-toggle ${isServicesOpen ? 'active' : ''}`} onClick={toggleServices}>
               Services Offered
-              <span className="dropdown-arrow">▼</span>
+              <span className="mobile-dropdown-arrow">▼</span>
             </button>
             {isServicesOpen && (
               <div className="mobile-dropdown-menu">
