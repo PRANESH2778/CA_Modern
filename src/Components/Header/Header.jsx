@@ -19,7 +19,7 @@ const Header = () => {
         {/* Logo */}
         <div className="navbar-logo">
           <a href="/">
-            <span className="logo-text">GLOBAL INSIGHTS KPO</span>
+            <span className="logo-text">Accusource Global Advisors</span>
           </a>
         </div>
 
@@ -38,11 +38,16 @@ const Header = () => {
               <div className="dropdown-menu">
                 <a href="/services/business-owners" className="dropdown-item">For Business Owners</a>
                 <a href="/services/cpa-bookkeeping" className="dropdown-item">For CPA & Bookkeeping Firm</a>
+                <a href="/services/accounting" className="dropdown-item">For Accounting & Bookkeeping Firm</a>
+                <a href="/services/virtual-cfo" className="dropdown-item">For Virtual CFO</a>
+                <a href="/services/financial" className="dropdown-item">For Financial Reporting</a>
+                <a href="/services/data-analysis" className="dropdown-item">For Data Analysis</a>
+                <a href="/services/outsourced" className="dropdown-item">For Outsourced</a>
               </div>
             )}
           </div>
 
-          <a href="/engagement-model" className="nav-link">Engagement Model</a>
+          {/* <a href="/engagement-model" className="nav-link">Engagement Model</a> */}
           <a href="/work-methodology" className="nav-link">Work Methodology</a>
           <a href="/career" className="nav-link">Career</a>
           <a href="/blogs" className="nav-link">Blogs</a>
@@ -78,6 +83,11 @@ const Header = () => {
               <div className="mobile-dropdown-menu">
                 <a href="/services/business-owners" className="mobile-dropdown-item" onClick={toggleMenu}>For Business Owners</a>
                 <a href="/services/cpa-bookkeeping" className="mobile-dropdown-item" onClick={toggleMenu}>For CPA & Bookkeeping Firm</a>
+                <a href="/services/accounting" className="mobile-dropdown-item" onClick={toggleMenu}>For Accounting & Bookkeeping Firm</a>
+                <a href="/services/virtual-cfo" className="mobile-dropdown-item" onClick={toggleMenu}>For Virtual CFO</a>
+                <a href="/services/financial" className="mobile-dropdown-item" onClick={toggleMenu}>For Financial Reporting</a>
+                <a href="/services/data-analysis" className="mobile-dropdown-item" onClick={toggleMenu}>For Data Analysis</a>
+                <a href="/services/outsourced" className="mobile-dropdown-item" onClick={toggleMenu}>For Outsourced</a>
               </div>
             )}
           </div>

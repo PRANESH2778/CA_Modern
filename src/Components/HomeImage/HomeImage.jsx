@@ -7,12 +7,12 @@ const HomeImage = () => {
     <div className="imageContainer">
       <img src={bgImage} alt="" className="imageStyle"/>
       <div className="detailSection">
-        <h1 className="mainHeading">Welcome to Global Insights KPO</h1>
+        <h1 className="mainHeading">Welcome to Accusource Global Advisors Private Limited</h1>
         <h2 className="subHeading">Accurate, Consistent and Quality Accounting Solutions</h2>
         <p className="description">
-          Backed by a team of skilled professionals, Global Insights KPO is your trusted outsourcing partner, 
-          providing end-to-end accounting solutions designed to enhance accuracy, improve efficiency, and ensure 
-          compliance with accounting principles.
+          At Accusource, we simplify complex numbers and transform financial data into meaningful insights. As a trusted partner for global businesses, we specialize in
+Financial Reporting, Data Analysis, Bookkeeping, and Tax Consultancy
+with a focus on accuracy, transparency, and growth.
         </p>
         <button className="ctaButton">Get Started</button>
       </div>

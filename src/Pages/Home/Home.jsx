@@ -9,6 +9,7 @@ import TrustedOutsourcingTeam from '../../Components/TrustedOutsourcingTeam/Trus
 import Industries from '../../Components/Industries/Industries'
 import DataSecurity from '../../Components/DataSecurity/DataSecurity'
 import Connect from '../../Components/Connect/Connect'
+import WhyChooseUs from '../../Components/WhyChooseUs/WhyChooseUs'
 const Home = () => {
   return (
     <div className="container">
@@ -17,6 +18,7 @@ const Home = () => {
         <TrustedOutsourcingTeam/>
         <JourneySection/>
         <UniqueSection/>
+        <WhyChooseUs/>
         {/* <DataSecurity/> */}
         <Industries/>
         <Connect/>

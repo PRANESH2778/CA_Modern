@@ -25,27 +25,30 @@ const Member = ({ img, name, role }) => (
 );
 
 const ExperiencedTeam = () => {
-  const team = [
-    { img: m1, name: "Meet Chauhan", role: "Team Leader" },
-    { img: m2, name: "Kalpesh Pipaliya", role: "Team Leader" },
-    { img: m3, name: "Mukesh Vishwakarma", role: "Sr. Accountant" },
-    { img: m4, name: "Rajat Kumar", role: "Jr. Accountant" },
-    { img: m5, name: "Sneha Parikh", role: "Jr. Accountant" },
-    { img: m6, name: "Mahir Parihar", role: "Jr. Accountant" },
-    { img: m7, name: "Nidhi Chauhan", role: "Intern" },
-    // { img: m8, name: "—", role: "—" },
+  const imagePool = [m1, m2, m3, m4, m5, m6, m7];
+  const rawTeam = [
+    { name: "Soniya", role: "BD Executive" },
+    { name: "Surbhi", role: "BD Executive" },
+    { name: "Ankit", role: "Manager" },
+    { name: "CA Shashank", role: "Senior Executive Accountant" },
+    { name: "CA Sakshi", role: "Senior Associate" },
+    { name: "CA Priya", role: "Senior Associate" },
+    { name: "Dhaval", role: "Executive Accountant" },
+    { name: "Sonal", role: "Executive Accountant" },
+    { name: "Pragati", role: "Senior Accountant" },
+    { name: "Dhwani", role: "Senior Accountant" },
   ];
+
+  const team = rawTeam.map((member, index) => ({
+    img: imagePool[index % imagePool.length],
+    name: member.name,
+    role: member.role,
+  }));
 
   return (
     <section className="experienced-team" id="experienced-team">
       <div className="et-container">
-        <h2 className="et-title">Our Experienced Team</h2>
-        <p className="et-intro">
-          At Global Insights KPO, our team is the backbone of our success. With a blend of expertise,
-          dedication, and innovation, we work as an extension of your business, delivering
-          precision‑driven accounting solutions. Committed to excellence and client satisfaction, we
-          ensure efficiency, compliance, and growth at every step.
-        </p>
+        <h2 className="et-title">Meet Our Team Members</h2>
 
         <div className="et-grid">
           {team.map((m, i) => (

@@ -11,6 +11,8 @@ import Leadership from "../../Components/Leadership/Leadership";
 import ExperiencedTeam from "../../Components/ExperiencedTeam/ExperiencedTeam";
 import UniqueSection from "../../Components/UniqueSection/UniqueSection";
 import JourneySection from "../../Components/JourneySection/JourneySection";
+import ValuesSection from "../../Components/ValuesSection/ValuesSection";
+import OurEdge from "../../Components/OurEdge/OurEdge";
 const heroIntroValue = "At Global Insights KPO, we understand that each client’s needs are unique, \
                         which is why we take a customized approach to every project. Our work methodology \
                         combines a strategic, step-by-step process with the flexibility to adapt to each \
@@ -25,6 +27,8 @@ const About = () => {
       <HeroIntro value={heroIntroValue}/>
       <main>
         <VisionMission />
+        <ValuesSection />
+        <OurEdge />
         <Leadership />
         <ExperiencedTeam />
         <UniqueSection />

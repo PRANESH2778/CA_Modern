@@ -1,0 +1,68 @@
+.whyContainer {
+    text-align: left;
+    padding: 50px 30px;
+    font-family: 'Space Grotesk', sans-serif;
+    background-color: #EFEFEF94; /* light gray background */
+  }
+  
+  .whyTitle {
+    font-size: 31px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  
+  .whySubtitle {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 40px;
+  }
+  
+  .whyCards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .whyCard {
+    background: linear-gradient(180deg, #f9f9f9, #e6f1f9);
+    border-radius: 12px;
+    padding: 30px 20px;
+    height: 320px;
+    width: 260px;
+    text-align: left;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .whyCard:hover {
+    transform: translateY(-6px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.12);
+  }
+  
+  .whyIcons {
+    font-size: 50px; /* placeholder icon size */
+    color: #2d3c8d;  /* navy blue */
+    margin-bottom: 20px;
+  }
+  
+  .whyIcons img {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .whyCard h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+  }
+  
+  .whyCard p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #333;
+    line-height: 1.4;
+  }
+  

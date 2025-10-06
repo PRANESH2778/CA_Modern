@@ -9,12 +9,7 @@ import OurWorkflow from "../../Components/OurWorkflow/OurWorkflow";
 import FiveStep from "../../Components/FiveStep/FiveStep";
 import JourneySection from "../../Components/JourneySection/JourneySection";
 
-const heroIntroValue = "At Global Insights KPO, we understand that each client’s needs are unique, \
-                        which is why we take a customized approach to every project. Our work methodology \
-                        combines a strategic, step-by-step process with the flexibility to adapt to each \
-                        client’s specific requirements. By integrating industry best practices, state-of-the-art tools, \
-                        and effective communication, we ensure that all tasks are completed accurately and on time. \
-                        Our approach helps us consistently deliver high-quality services that drive business efficiency and foster long-term partnerships."
+const heroIntroValue = "At Accusource Global Advisors, we believe that effective outsourced accounting is more than just number crunching—it's about creating a seamless, transparent, and strategic partnership that drives your business forward. Our methodology is built on three core pillars:"
 const bannerName = "Work Methodology"
 const WorkMethodology = () => {
   return (
@@ -22,7 +17,6 @@ const WorkMethodology = () => {
       <HeroBanner value={bannerName}/>
       <HeroIntro value={heroIntroValue}/>
       <main>
-        <OurWorkflow />
         <FiveStep />
         <DataSecurity />
         <JourneySection/>

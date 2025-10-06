@@ -1,4 +1,3 @@
-// src/components/about/VisionMission.jsx
 import React from "react";
 import "./VisionMission.css";
 
@@ -23,17 +22,15 @@ const VisionMission = () => {
     <section className="vm-section" id="vision-mission">
       <div className="vm-container">
         <VMCard icon={visionIcon} title="Our Vision">
-          To be recognized as the premier KPO in the industry, renowned for our
-          commitment to accuracy, consistency, and quality—because we believe
-          that precise and reliable accounting is the backbone of every
-          successful business.
+          To become a global leader in technology-enabled financial advisory, delivering clarity, compliance, and confidence to businesses across borders.
         </VMCard>
 
         <VMCard icon={missionIcon} title="Our Mission">
-          We are committed to delivering accurate, consistent, and
-          quality‑driven accounting solutions that help businesses streamline
-          operations, reduce costs, and achieve financial clarity. We act as an
-          extension of your team, ensuring efficiency, compliance, and growth.
+          <ul>
+            <li>To deliver accurate, timely, and transparent financial solutions using a blend of domain expertise and smart technology.</li>
+            <li>To help clients move beyond compliance and leverage financial insights for better strategy and decision-making.</li>
+            <li>To create long-term value by combining people, processes, and automation in everything we do.</li>
+          </ul>
         </VMCard>
       </div>
     </section>

@@ -16,9 +16,13 @@ import "./styles/global.css";
 import "./styles/engagement.css";
 import BusinessOwner from './Pages/BusinessOwner/BusinessOwner'
 import BookKeeping from './Pages/BookKeeping/BookKeeping'
+import Accounting from './Components/Accounting/Accounting'
+import VirtualCFO from './Components/VirtualCFO/VirtualCFO'
 import Footer from './Components/Footer/Footer'
 import FloatingButtons from './Components/FloatingButtons/FloatingButtons'
-
+import Financial from './Components/Financial/Financial'
+import DataAnalysis from './Components/DataAnalysis/DataAnalysis' 
+import Outsourced from './Components/Outsourced/Outsourced'
 function App() {
   return (
     <>
@@ -29,6 +33,11 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/services/business-owners" element={<BusinessOwner />} />
         <Route path="/services/cpa-bookkeeping" element={<BookKeeping />} />
+        <Route path="/services/accounting" element={<Accounting />} />
+        <Route path="/services/virtual-cfo" element={<VirtualCFO />} />
+        <Route path="/services/financial" element={<Financial />} />
+        <Route path="/services/data-analysis" element={<DataAnalysis />} />
+        <Route path="/services/outsourced" element={<Outsourced />} />
         <Route path="/engagement-model" element={<EngagementModel />} />
         <Route path="/work-methodology" element={<WorkMethodology />} />
         <Route path="/career" element={<Career />} />
