@@ -1,15 +1,15 @@
 import React from "react";
 import "./OutsourcedCards.css";
-import bookkeeping from "../../assets/bookkeeping.png";
-import payable from "../../assets/payables.png";
+import scale from "../../assets/scale.png";
+import resource from "../../assets/resource.png";
 import receivable from "../../assets/receivable.png";
-import payroll from "../../assets/payroll.png";
+import quality from "../../assets/quality.png";
 import fractional from "../../assets/forecasting.png";
 import salesTax from "../../assets/sales-tax.png";
 const services = [
     {
       title: "Scale Operations Without Increasing Headcount",
-      icon: receivable,
+      icon: scale,
       items: [
         "Expand your accounting capacity without hiring additional staff",
         "Leverage dedicated offshore/onshore teams for back-office support",
@@ -20,7 +20,7 @@ const services = [
     },
     {
       title: "Access Experienced Resources On-Demand",
-      icon: receivable,
+      icon: resource,
       items: [
         "Get access to qualified accountants, analysts, and finance professionals as needed",
         "Seamless integration with your existing team and workflow tools",
@@ -31,7 +31,7 @@ const services = [
     },
     {
       title: "Maintain Quality, Accuracy, and Timely Delivery for Clients",
-      icon: receivable,
+      icon: quality,
       items: [
         "Strict adherence to accounting standards and process checklists",
         "Multi-level review and verification to ensure data accuracy",

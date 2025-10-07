@@ -9,12 +9,11 @@ const Footer = () => {
         <div className="footer-section about">
           <img
             src="/logo.png" // replace with your logo path
-            alt="Global Insights KPO"
+            alt="Accusource Global Advisors Private Limited"
             className="footer-logo"
           />
           <p>
-            Global Insights KPO provides precise and affordable accounting
-            solutions for businesses worldwide.
+            Accusource provides reliable financial reporting, data analysis, bookkeeping, and tax consultancy services that drive accuracy, transparency, and sustainable growth.
           </p>
         </div>
 
@@ -24,11 +23,12 @@ const Footer = () => {
           <ul>
             <li><a href="#">Home</a></li>
             <li><a href="/about">About us</a></li>
-            <li><a href="/engagement-model">Engagement model</a></li>
+            <li><a href="/services">Services</a></li>
+            {/* <li><a href="/engagement-model">Engagement model</a></li>
             <li><a href="/work-methodology">Work Methodology</a></li>
           </ul>
           <ul>
-            <li><a href="/career">Career</a></li>
+            <li><a href="/career">Career</a></li> */}
             <li><a href="/blogs">Blogs</a></li>
             <li><a href="/contact">Contact us</a></li>
           </ul>

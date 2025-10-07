@@ -1,15 +1,15 @@
 import React from "react";
 import "./VirtualCFOCards.css";
-import bookkeeping from "../../assets/bookkeeping.png";
-import payable from "../../assets/payables.png";
-import receivable from "../../assets/receivable.png";
+import budget from "../../assets/budget.png";
+import cash from "../../assets/cash.png";
+import financial from "../../assets/financialPlanning.png";
 import payroll from "../../assets/payroll.png";
-import fractional from "../../assets/forecasting.png";
+import kpi from "../../assets/kpi.png";
 import salesTax from "../../assets/sales-tax.png";
 const services = [
     {
       title: "Cash Flow Monitoring and Optimization",
-      icon: payroll,
+      icon: cash,
       items: [
         "Continuous tracking of cash inflows and outflows",
         "Identification of cash surpluses and shortages",
@@ -20,7 +20,7 @@ const services = [
     },
     {
       title: "Budgeting and Variance Analysis",
-      icon: payroll,
+      icon: budget,
       items: [
         "Preparation of annual and quarterly budgets",
         "Comparison of actual performance with planned targets",
@@ -31,7 +31,7 @@ const services = [
     },
     {
       title: "Financial Planning and Forecasting",
-      icon: payroll,
+      icon: financial,
       items: [
         "Strategic financial modeling for short and long-term goals",
         "Revenue, cost, and profit forecasting based on trends",
@@ -42,7 +42,7 @@ const services = [
     },
     {
       title: "KPI Tracking and Management Insights",
-      icon: payroll,
+      icon: kpi,
       items: [
         "Identification of key financial and operational performance indicators",
         "Dashboard-based tracking of critical metrics in real-time",

@@ -8,18 +8,31 @@ import Industries from '../../Components/Industries/Industries'
 import HeroBanner from '../../Components/Common/HeroBanner'
 import HeroIntro from '../../Components/Common/HeroIntro'
 import DataAnalysisCards from './DataAnalysisCards'
+import './DataAnalysis.css' // 👉 Add this for custom styling
+
 const DataAnalysis = () => {
-    const bannerName = "Data Analysis Services"
-    const heroIntroValue = "We help businesses turn data into insights with tools like Excel, Power BI, and Google Data Studio. Services include:"
+  const bannerName = "Data Analysis Services"
+  const heroIntroValue = "We help businesses turn data into insights with tools like Excel, Power BI, and Google Data Studio. Services include:"
+
   return (
     <div>
-        <HeroBanner value={bannerName}/>
-        <HeroIntro value={heroIntroValue}/>
-        <DataAnalysisCards/>
-        <UniqueSection/>
-        <JourneySection/>
-        <DataSecurity/>
-        <Industries/>
+      <HeroBanner value={bannerName}/>
+      <HeroIntro value={heroIntroValue}/>
+      <DataAnalysisCards/>
+
+      {/* ✅ New Approach Section */}
+      <section className="approach-section">
+        <h2 className="approach-title">Approach</h2>
+        <p className="approach-text">
+          We integrate seamlessly with your management team, providing real-time insights, actionable advice, 
+          and strategic guidance—without the cost of a full-time CFO.
+        </p>
+      </section>
+
+      <UniqueSection/>
+      <JourneySection/>
+      <DataSecurity/>
+      <Industries/>
     </div>
   )
 }

@@ -10,15 +10,18 @@ import Industries from '../../Components/Industries/Industries'
 import DataSecurity from '../../Components/DataSecurity/DataSecurity'
 import Connect from '../../Components/Connect/Connect'
 import WhyChooseUs from '../../Components/WhyChooseUs/WhyChooseUs'
+import FiveStep from '../../Components/FiveStep/FiveStep'
 const Home = () => {
   return (
     <div className="container">
         <HomeImage/>
         <AboutSection/>
+        <WhyChooseUs/>
+        <FiveStep/>
         <TrustedOutsourcingTeam/>
         <JourneySection/>
         <UniqueSection/>
-        <WhyChooseUs/>
+        
         {/* <DataSecurity/> */}
         <Industries/>
         <Connect/>

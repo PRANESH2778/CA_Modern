@@ -1,15 +1,15 @@
 import React from "react";
 import "./FinancialCards.css";
-import bookkeeping from "../../assets/bookkeeping.png";
-import payable from "../../assets/payables.png";
-import receivable from "../../assets/receivable.png";
-import payroll from "../../assets/payroll.png";
+import financial from "../../assets/financialPlanning.png";
+import budget from "../../assets/budget.png";
+import management from "../../assets/management.png";
+import modeling from "../../assets/modeling.png";
 import fractional from "../../assets/forecasting.png";
 import salesTax from "../../assets/sales-tax.png";
 const services = [
     {
       title: "Monthly, Quarterly, and Annual Financial Statements",
-      icon: payable,
+      icon: financial,
       items: [
         "Preparation of Profit & Loss, Balance Sheet, and Cash Flow Statements",
         "Compliance with accounting standards and statutory requirements",
@@ -20,7 +20,7 @@ const services = [
     },
     {
       title: "Business Budgeting, Forecasting, and Variance Analysis",
-      icon: payable,
+      icon: budget,
       items: [
         "Comprehensive business budgeting aligned with organizational goals",
         "Forecasting of revenue, expenses, and profitability trends",
@@ -31,7 +31,7 @@ const services = [
     },
     {
       title: "Customized MIS Reports for Management",
-      icon: payable,
+      icon: management,
       items: [
         "Tailored Management Information System (MIS) reports for leadership teams",
         "Periodic financial summaries with key performance highlights",
@@ -42,7 +42,7 @@ const services = [
     },
     {
       title: "Financial Modeling, Valuation, and Projections",
-      icon: payable,
+      icon: modeling,
       items: [
         "Development of dynamic financial models for business planning",
         "Valuation of companies, startups, or specific projects",

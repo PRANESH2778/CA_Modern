@@ -1,15 +1,15 @@
 import React from "react";
 import "./DataAnalysisCards.css";
-import bookkeeping from "../../assets/bookkeeping.png";
-import payable from "../../assets/payables.png";
-import receivable from "../../assets/receivable.png";
-import payroll from "../../assets/payroll.png";
+import dashboard from "../../assets/dashboard.png";
+import templates from "../../assets/templates.png";
+import excel from "../../assets/excel.png";
+import kpi from "../../assets/kpi.png";
 import fractional from "../../assets/forecasting.png";
 import salesTax from "../../assets/sales-tax.png";
 const services = [
     {
       title: "Dashboard Creation and Reporting",
-      icon: fractional,
+      icon: dashboard,
       items: [
         "Design and development of interactive financial dashboards",
         "Real-time data visualization for quick business insights",
@@ -20,7 +20,7 @@ const services = [
     },
     {
       title: "Customized Templates for Recurring Business Needs",
-      icon: fractional,
+      icon: templates,
       items: [
         "Creation of reusable Excel and Google Sheet templates",
         "Automation of recurring reports, trackers, and financial summaries",
@@ -31,7 +31,7 @@ const services = [
     },
     {
       title: "Advanced Problem-Solving in Excel and Automation of Processes",
-      icon: fractional,
+      icon: excel,
       items: [
         "Development of advanced Excel tools for accounting and analysis",
         "Automation of manual finance workflows using macros and formulas",
@@ -42,7 +42,7 @@ const services = [
     },
     {
       title: "KPI Tracking and Business Intelligence Solutions",
-      icon: fractional,
+      icon: kpi,
       items: [
         "Identification and monitoring of key business performance indicators",
         "BI dashboards using tools like Power BI, Tableau, or Google Data Studio",

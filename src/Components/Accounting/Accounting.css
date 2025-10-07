@@ -1,0 +1,21 @@
+.why-us-section {
+    background-color: #f9fafb;
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .why-us-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 20px;
+  }
+  
+  .why-us-text {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #4b5563;
+  }
+  

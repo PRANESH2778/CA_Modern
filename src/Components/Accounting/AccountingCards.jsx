@@ -1,15 +1,15 @@
 import React from "react";
 import "./AccountingCards.css";
-import bookkeeping from "../../assets/bookkeeping.png";
+import bank from "../../assets/bank.png";
 import payable from "../../assets/payables.png";
-import receivable from "../../assets/receivable.png";
+import expense from "../../assets/expense.png";
 import payroll from "../../assets/payroll.png";
-import fractional from "../../assets/forecasting.png";
+import engagement from "../../assets/engagement.png";
 import salesTax from "../../assets/sales-tax.png";
 const services = [
     {
       title: "Bank and Credit Card Statement Reconciliation",
-      icon: bookkeeping,
+      icon: bank,
       items: [
         "Accurate reconciliation of bank and credit card accounts",
         "Identification of missing or duplicate transactions",
@@ -20,7 +20,7 @@ const services = [
     },
     {
       title: "Accounts Payable and Receivable Management",
-      icon: bookkeeping,
+      icon: payable,
       items: [
         "Systematic management of customer invoices and supplier bills",
         "Timely processing of vendor payments and collection follow-ups",
@@ -42,7 +42,7 @@ const services = [
     },
     {
       title: "Expense Tracking and Reporting",
-      icon: bookkeeping,
+      icon: expense,
       items: [
         "Recording and categorization of business expenses",
         "Automation of expense entries through digital receipts",
@@ -53,7 +53,7 @@ const services = [
     },
     {
       title: "Engagement Models",
-      icon: bookkeeping,
+      icon: engagement,
       items: [
         "Assignment-Based: Pay per project or task",
         "Fixed Monthly Packages: Ongoing bookkeeping support tailored to your business size",

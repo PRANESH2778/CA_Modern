@@ -65,10 +65,7 @@ const FiveStep = () => {
       <div className="five-step__container">
         <h2 className="five-step__title">Our 5‑Step Work Methodology</h2>
         <p className="five-step__intro">
-          At Global Insights KPO, we follow a structured and client‑centric approach to ensure a
-          seamless experience, high‑quality service, and long‑term value. Our 5‑step work
-          methodology ensures efficient onboarding, transparent communication, and continuous
-          improvement.
+         At Accusource Global Advisors, we believe that effective outsourced accounting is more than just number crunching—it's about creating a seamless, transparent, and strategic partnership that drives your business forward. Our methodology is built on three core pillars:
         </p>
 
         {/* <div className="five-step__grid">
