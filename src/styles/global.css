@@ -1,12 +1,15 @@
 /* src/styles/global.css */
 :root {
     --bg: #ffffff;
-    --text: #222;
+    --text: #222222;
     --muted: #737b87;
-    --brand: #0b5fff;
-    --teal: #17c6d3;
+    /* Theme palette (sample site) */
+    --brand: #0B3B66;          /* primary navy */
+    --brand-dark: #072949;     /* darker hover */
+    --accent: #35C759;         /* green accent */
     --surface: #f6f9ff;
     --card: #ffffff;
+    --footer: #0A2D53;         /* footer navy */
     --radius: 14px;
     --container: 1140px;
   }
@@ -56,6 +59,7 @@
   .btn { display: inline-block; border: 1px solid var(--brand); color: var(--brand); padding: 10px 14px; border-radius: 8px; text-decoration: none; font-weight: 600; }
   .btn.small { padding: 8px 12px; font-size: 14px; }
   .btn.primary { background: var(--brand); color: #fff; }
+  .btn.primary:hover { background: var(--brand-dark); }
   
   /* Header */
   .site-header { position: sticky; top: 0; z-index: 20; background: #fff; border-bottom: 1px solid #eef1f7; }
@@ -65,13 +69,13 @@
   .nav a:hover { color: var(--brand); }
   
   /* Footer */
-  .site-footer { background: #0a1628; color: #d7dfef; margin-top: 40px; }
+  .site-footer { background: var(--footer); color: #d7dfef; margin-top: 40px; }
   .footer-grid { display: grid; grid-template-columns: 1.6fr 1fr 1fr 1.5fr; gap: 24px; padding: 40px 0; }
   .footer-grid h4 { margin: 0 0 12px; color: #fff; }
   .links { list-style: none; padding: 0; margin: 0; }
   .links li { margin: 8px 0; }
   .links a { color: #d7dfef; text-decoration: none; }
-  .links a:hover { color: #fff; }
+  .links a:hover { color: var(--accent); }
   .footer-bottom { border-top: 1px solid #203047; }
   .spread { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 12px 0; }
   .socials { display: flex; gap: 12px; }

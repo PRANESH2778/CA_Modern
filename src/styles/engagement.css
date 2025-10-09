@@ -65,7 +65,7 @@
     position: absolute;
     left: 0;
     top: 0;
-    color: #0b5fff;
+    color: var(--brand);
     font-weight: 700;
   }
   
@@ -94,7 +94,7 @@
   .ts-subtitle { margin: 8px 0 6px; font-size: 20px; }
   .ts-list { list-style: none; padding: 0; margin: 0 0 8px; }
   .ts-list li { position: relative; padding-left: 22px; margin: 8px 0; font-size: 16px; line-height: 1.7; }
-  .ts-list li::before { content: "»"; position: absolute; left: 0; top: 0; color: #0b5fff; font-weight: 700; }
+  .ts-list li::before { content: "»"; position: absolute; left: 0; top: 0; color: var(--brand); font-weight: 700; }
   .ts-bottom {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Benefits | Ideal For? */
@@ -125,7 +125,7 @@
   .od-subtitle { margin: 8px 0 6px; font-size: 20px; }
   .od-list { list-style: none; padding: 0; margin: 0 0 8px; }
   .od-list li { position: relative; padding-left: 22px; margin: 8px 0; font-size: 16px; line-height: 1.7; }
-  .od-list li::before { content: "»"; position: absolute; left: 0; top: 0; color: #0b5fff; font-weight: 700; }
+  .od-list li::before { content: "»"; position: absolute; left: 0; top: 0; color: var(--brand); font-weight: 700; }
   .od-bottom {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Benefits | Ideal For? */

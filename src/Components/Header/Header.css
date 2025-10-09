@@ -48,8 +48,8 @@
 }
 
 .nav-link:hover {
-  color: #1a1a1a;
-  background-color: #f8fafc;
+  color: var(--brand);
+  background-color: #f0f5fa;
 }
 
 /* Dropdown */
@@ -71,8 +71,8 @@
 }
 
 .dropdown-toggle:hover {
-  color: #1a1a1a;
-  background-color: #f8fafc;
+  color: var(--brand);
+  background-color: #f0f5fa;
 }
 
 .dropdown-arrow {
@@ -108,7 +108,7 @@
 /* CTA Button */
 .cta-button {
   padding: 8px 16px;   /* reduced */
-  background: #2563eb;
+  background: var(--accent);
   color: #fff;
   font-weight: 600;
   border-radius: 6px;
@@ -119,7 +119,7 @@
 }
 
 .cta-button:hover {
-  background: #1d4ed8;
+  background: #2cab4e; /* slightly darker accent */
 }
 
 /* Mobile */
@@ -171,8 +171,8 @@
 }
 
 .mobile-nav-link:hover {
-  color: #2563eb;
-  background-color: #f8fafc;
+  color: var(--brand);
+  background-color: #f0f5fa;
 }
 
 /* Mobile Dropdown */
@@ -239,7 +239,7 @@
 
 .mobile-cta-button {
   padding: 14px 24px;
-  background: #2563eb;
+  background: var(--accent);
   color: #fff;
   font-weight: 600;
   border-radius: 8px;
@@ -252,7 +252,7 @@
 }
 
 .mobile-cta-button:hover {
-  background: #1d4ed8;
+  background: #2cab4e;
   transform: translateY(-1px);
 }
 

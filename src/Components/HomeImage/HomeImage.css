@@ -49,24 +49,24 @@
    text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.8);
  }
  
- .ctaButton {
-   background: #000;
-   color: #fff;
-   border: none;
-   border-radius: 8px;
-   padding: 1rem 2rem;
-   font-size: 1.1rem;
-   font-weight: 600;
-   cursor: pointer;
-   transition: all 0.3s ease;
-   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
- }
+.ctaButton {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
  
- .ctaButton:hover {
-   background: #333;
-   transform: translateY(-2px);
-   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
- }
+.ctaButton:hover {
+  background: #2cab4e;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
  
  /* Responsive Design */
  @media (max-width: 1200px) {
